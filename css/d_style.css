@@ -1,0 +1,121 @@
+section {
+    width: 700px;
+}
+header {
+    color: #fff;
+    background-color: #d12d26;
+    padding: 20px;
+}
+body {
+    margin: 0px;
+}
+h2 {
+    margin: 10px 0px 0px 10px;
+}
+p {
+    color: #4a3912;
+    margin: 0px;
+}
+ul {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+}
+.time {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline;
+}
+.icon {
+    margin-left: 10px;
+}
+.left {
+    display: flex;
+    justify-content: flex-end;
+}
+.title {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+h1 {
+    position: relative;
+    margin-bottom: 5px;
+}
+.owaru {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+}
+.content {
+    background-color: #eae0bc;
+    background-image: radial-gradient(#f3ebcd 16%, transparent 16%),
+                      radial-gradient(#f3ebcd 16%, transparent 16%);
+    background-position: 0 0, 19px 19px;
+    background-size: 38px 38px;
+    padding: 64px 34px;
+}
+.heading2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.box {
+    box-sizing: border-box;
+    width: 516px;
+    height: 900px;
+    background-color: #f4f0e4;
+    border-radius: 130px;
+    padding: 60px;
+    margin: 30px auto;
+}
+.name_date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.name {
+    display: inline;
+    text-align: left;
+    color: #ddd9ca;
+    font-size: 18px;
+    font-weight: bold;
+}
+.date {
+    display:inline;
+    text-align: right;
+    color: #ddd9ca;
+    font-size: 18px;
+    font-weight: bold;
+}
+.icon_btn {
+    width: 122px;
+}
+.btn_name {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.btn {
+    width: 140px;
+    text-align: center;
+    transition: 1s;
+    -webkit-transition: 0.1s;
+    margin-bottom: 30px;
+}
+.btn:active{
+  transform: scale(0.8);
+}
